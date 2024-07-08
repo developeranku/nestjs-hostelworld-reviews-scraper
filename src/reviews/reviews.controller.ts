@@ -35,7 +35,8 @@ export class ReviewsController {
     name: 'endDate',
     required: false,
     type: Date,
-    description: 'End date for review scraping',
+    description:
+      'End date for review scraping, By default it will return reviews for past 7 days',
     example: '2024-06-01',
   })
   @ApiQuery({
